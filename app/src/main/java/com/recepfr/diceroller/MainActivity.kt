@@ -6,8 +6,8 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-    lateinit var diceImage: ImageView
-    lateinit var diceImage2: ImageView
+    private lateinit var diceImage: ImageView
+    private lateinit var diceImage2: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
