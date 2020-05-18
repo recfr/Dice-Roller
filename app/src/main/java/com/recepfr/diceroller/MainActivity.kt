@@ -17,10 +17,7 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener { rollDice() }
         diceImage = findViewById(R.id.dice_image)
         diceImage2 = findViewById(R.id.dice_image2)
-
     }
-
-    /*** ----------------------------------------------------------------------------------------- ***/
 
     private fun rollDice() {
 //        Toast.makeText(this, "Button clicked.", Toast.LENGTH_SHORT).show()
